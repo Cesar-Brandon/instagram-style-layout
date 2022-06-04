@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>test-spa</title>
+
+    <!-- font-awesome -->
+    <script
+      src="https://kit.fontawesome.com/058832c9a1.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="index_blunde.js"></script>
+  </head>
+  <body class="stop-scrolling">
+    <main>
+      <header class="header">
+        <nav class="nav">
+          <ul>
+            <li>
+              <img id="icon-vercel" src="90f94e577c4ff5cc11e7.svg" alt="" />
+            </li>
+            <li class="li-search">
+              <div class="search">
+                <input type="text" placeholder="Search..." />
+              </div>
+            </li>
+            <li>
+              <i id="icon-dark" class="fa-solid fa-circle-half-stroke"></i>
+            </li>
+            <li><i class="fa-solid fa-fire"></i></li>
+            <li class="icon-user">
+              <img src="5c03a617eb4d35c1703e.jpg" alt="" />
+              <ul>
+                <li>
+                  <i class="fa-solid fa-face-laugh-beam"></i>
+                  <a href=""> Profile</a>
+                </li>
+                <li>
+                  <i class="fa-solid fa-gear"></i>
+                  <a href="">Setting</a>
+                </li>
+                <li>
+                  <i class="fa-solid fa-rotate"></i>
+                  <a href="">Change account</a>
+                </li>
+                <li class="li-sign-off">
+                  <a href="">Sign off</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <section class="profile-user">
+        <div class="profile-picture">
+          <img src="5c03a617eb4d35c1703e.jpg" alt="" />
+        </div>
+        <div class="profile-info">
+          <div class="profile-name">
+            <h1>Random</h1>
+            <button>Follow</button>
+          </div>
+          <div class="profile-statistics">
+            <p><strong>100</strong> publications</p>
+            <p><strong>100</strong> followers</p>
+            <p><strong>100</strong> followed</p>
+          </div>
+          <div class="profile-description">
+            <p>
+              <strong>Random</strong><br />
+              ipsum dolor sit amet, consectetur adipisicing elit. Doloribus
+              quos, rem magnam illum sed similique consequuntur aliquam nostrum
+              repellat quas? Molestias alias architecto ratione in, corporis
+              fuga placeat minus qui.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="options">
+        <ul>
+          <li><a href="#/publications">publications</a></li>
+          <li><a href="#/videos">videos</a></li>
+          <li><a href="#/saved">saved</a></li>
+          <li><a href="#/labels">labels</a></li>
+        </ul>
+      </section>
+      <section class="section-galery" id="root"></section>
+    </main>
+  </body>
+</html>
